@@ -285,19 +285,19 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       avatarURL = "/images/avatar.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
-      title = ""
+      title = "Cheolwoo"
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+      subtitle = "Computer Science & AI Undergraduate"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
       # extra text shown below the subtitle, such as a quote or a short summary (HTML format is supported)
       # 副标题下方显示的额外文本, 例如引用或简短介绍 (支持 HTML 格式)
-      extra = ""
+      extra = "Exploring Computer Vision and Beyond."
       # whether to show the extra text in italic
       # 是否以斜体显示额外文本
-      extraItalic = true
+      extraItalic = false
       # whether to show social links
       # 是否显示社交账号
       social = true
@@ -913,9 +913,11 @@ accessToken=""
           enable = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
-          title = ""
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          title = "Cheolwoo"
+          subtitle = "Computer Science & AI Undergraduate"
           typeit = true
+          extra = "Exploring Computer Vision and Beyond."
+          extraItalic = false
           social = true
           disclaimer = ""
       [languages.ko.params.social]
