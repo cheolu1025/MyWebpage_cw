@@ -111,9 +111,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Author config
   # 作者配置
   [params.author]
-    name = "xxxx"
+    name = "Cheolwoo"
     email = ""
-    link = ""
+    link = "https://github.com/cheolu1025"
 
   # Header config
   # 页面头部导航栏配置
