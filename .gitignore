@@ -35,3 +35,8 @@ $RECYCLE.BIN/
 **/resources/_gen/
 **/.hugo_build.lock
 /.github-pages-setup-backups/
+
+# Re-apply ignores inside re-included folders (must stay at the end)
+**/.DS_Store
+/site/public/
+/site/resources/
