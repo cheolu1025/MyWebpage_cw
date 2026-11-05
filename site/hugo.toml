@@ -919,19 +919,5 @@ accessToken=""
           social = true
           disclaimer = ""
       [languages.ko.params.social]
-        GitHub = "xxxx"
-        X = "xxxx"
-        Linkedin = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
-        Youtubelegacy = "xxxx"
-        HuggingFace = "xxxx"
-        LeetCode = "xxxx"
-        Threads = "xxxx"
-        Phone = "555-555-555"
-        Email = "xxxx@xxxx.com"
+        GitHub = "cheolu1025"
         RSS = true
-        [languages.ko.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
