@@ -879,14 +879,6 @@ accessToken=""
         url = "/categories/"
         title = ""
       [[languages.ko.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.ko.menu.main]]
         weight = 5
         identifier = "about"
         pre = ""
@@ -900,7 +892,7 @@ accessToken=""
         pre = "<i class='fab fa-github' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/cheolu1025/MyWebpage_cw"
         title = "GitHub"
     [languages.ko.params]
       [languages.ko.params.search]
