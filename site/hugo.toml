@@ -61,7 +61,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # you can add extra information after the name (HTML format is supported), such as icons
     # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
     post = ""
-    name = "Posts"
+    name = "Activities"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     # 当您将鼠标悬停在此菜单链接上时, 将显示标题
@@ -859,7 +859,7 @@ accessToken=""
         identifier = "posts"
         pre = ""
         post = ""
-        name = "Posts"
+        name = "Activities"
         url = "/posts/"
         title = ""
       [[languages.ko.menu.main]]
