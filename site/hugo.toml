@@ -24,6 +24,9 @@ label = "한국어"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 
+# interpret date-only front matter (e.g. 2026-11-07) in Korean time
+timeZone = "Asia/Seoul"
+
 # copyright description used only for seo schema
 # 版权描述，仅仅用于 SEO
 copyright = ""
