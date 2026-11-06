@@ -1,6 +1,6 @@
 ---
 title: "VadCLIP: CLIP으로 영상 이상 행동 탐지하기"
-date: 2026-11-05
+date: 2026-11-06
 weight: 7
 draft: false
 description: "CLIP의 시각-언어 지식을 약지도 영상 이상 행동 탐지에 적용한 VadCLIP 논문을 정리한 공부 기록"

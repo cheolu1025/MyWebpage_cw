@@ -1,6 +1,6 @@
 ---
 title: "CNN 기초부터 ResNet, U-Net까지"
-date: 2026-11-05
+date: 2026-11-06
 weight: 10
 draft: false
 description: "MLP의 한계에서 출발해 CNN의 구조, ResNet, U-Net, 그리고 ViT와의 차이까지 정리한 공부 기록"

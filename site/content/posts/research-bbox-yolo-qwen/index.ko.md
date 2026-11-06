@@ -1,6 +1,6 @@
 ---
 title: "YOLO와 Qwen2.5-VL의 바운딩 박스 비교 실험"
-date: 2026-11-05
+date: 2026-11-07
 weight: 2
 draft: false
 description: "DVS 연구에 쓰는 비전-언어 모델이 YOLO만큼 정확한 바운딩 박스를 낼 수 있는지 COCO 정답과 비교해 본 실험 기록"

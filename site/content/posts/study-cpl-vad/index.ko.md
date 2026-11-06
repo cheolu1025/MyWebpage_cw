@@ -1,6 +1,6 @@
 ---
 title: "CPL-VAD: 두 갈래가 서로를 가르치는 이상 행동 탐지"
-date: 2026-11-05
+date: 2026-11-06
 weight: 5
 draft: false
 description: "이진 탐지와 이상 종류 분류 두 갈래가 의사 라벨을 주고받으며 서로를 보완하는 CPL-VAD 논문을 정리한 공부 기록"

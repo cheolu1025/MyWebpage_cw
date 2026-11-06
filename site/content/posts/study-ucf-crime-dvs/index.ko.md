@@ -1,6 +1,6 @@
 ---
 title: "UCF-Crime-DVS: 이벤트 카메라로 만든 이상 행동 탐지 데이터셋"
-date: 2026-11-05
+date: 2026-11-06
 weight: 6
 draft: false
 description: "제 연구의 출발점인 UCF-Crime-DVS 논문을 읽고 데이터셋 구성과 SNN 기반 모델 MSF를 정리한 공부 기록"

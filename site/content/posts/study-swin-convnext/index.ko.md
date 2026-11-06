@@ -1,6 +1,6 @@
 ---
 title: "Swin Transformer와 ConvNeXt"
-date: 2026-11-05
+date: 2026-11-06
 weight: 9
 draft: false
 description: "ViT의 한계를 푼 Swin Transformer와, Transformer 시대에 CNN을 다시 설계한 ConvNeXt를 함께 정리한 공부 기록"

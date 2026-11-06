@@ -1,6 +1,6 @@
 ---
 title: "CLIP: 자연어로 시각 표현을 배우는 모델"
-date: 2026-11-05
+date: 2026-11-06
 weight: 8
 draft: false
 description: "이미지와 텍스트를 같은 공간에 정렬해 제로샷 분류를 가능하게 한 CLIP 논문을 정리한 공부 기록"

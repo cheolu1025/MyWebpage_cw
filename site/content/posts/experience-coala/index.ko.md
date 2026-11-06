@@ -1,6 +1,6 @@
 ---
 title: "학부 동아리 COALA 부회장 활동"
-date: 2026-11-05
+date: 2026-11-07
 weight: 4
 draft: false
 description: "전북대학교 컴퓨터인공지능학부 동아리 COALA에서 부회장으로 행사 기획, 스터디 운영 계획, 신입 모집을 맡은 기록"

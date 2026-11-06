@@ -1,6 +1,6 @@
 ---
 title: "Pick & Keep: AI 분류 기반 선택적 사진 클라우드 백업 서비스"
-date: 2026-11-05
+date: 2026-11-07
 weight: 3
 draft: false
 description: "클라우드컴퓨팅 수업 기말 프로젝트로 기획 중인, 필요한 사진만 골라 S3에 보관하는 웹 서비스의 기획·설계 기록"
