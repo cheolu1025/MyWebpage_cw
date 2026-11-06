@@ -105,3 +105,40 @@ hugo --gc --minify --config hugo.toml,pages.json --theme template --themesDir th
 4. https://cheolu1025.github.io/MyWebpage_cw/ 를 열어 바뀐 내용을 확인합니다. 이전 화면이 보이면 강력 새로고침(macOS `⌘ + Shift + R`, Windows `Ctrl + Shift + R`)을 하거나 시크릿 창으로 엽니다.
 
 실행이 빨간색 X로 실패하면 해당 실행을 눌러 실패한 단계의 로그를 확인합니다. 빌드는 성공했는데 배포 단계만 시간 초과로 실패한 경우에는, 다음 push의 배포가 성공하면 그 사이 변경도 함께 반영됩니다.
+
+## 출처와 라이선스
+
+### 테마와 도구
+
+| 자료 | 사용 위치 | 구분 | 원본 | 이용 조건 |
+| --- | --- | --- | --- | --- |
+| LoveIt 테마 | `site/themes/template/` 전체, `site/layouts/`의 덮어쓴 템플릿 | 외부 자료 | https://github.com/dillonzq/LoveIt | MIT License. 원본 고지는 `LICENSE`와 `site/themes/template/LICENSE`에 유지 |
+| 테마 기본 아이콘(favicon 등) | `site/static/` | 외부 자료 (LoveIt 테마 포함) | LoveIt 테마 | MIT License |
+| Hugo | 사이트 빌드 | 외부 도구 | https://gohugo.io/ | Apache License 2.0 |
+| 배포 준비 스크립트 | `prepare_github_pages.py`, `.github/pages_build.py`, `.github/workflows/hugo-pages.yml` | 외부 자료 (수업 제공) | 2026학년도 초급프로젝트 수업 제공 스크립트 | 수업 안내에 따름 |
+
+### 이미지와 문서
+
+| 자료 | 사용 위치 | 구분 | 원본·도구 |
+| --- | --- | --- | --- |
+| 홈 프로필 이미지 | `site/assets/images/avatar.jpg` | AI 생성 | ChatGPT 이미지 생성(모델명 미표시)으로 만든 뒤 원형에 맞게 자르고 크기를 줄임 |
+| 공부 기록 발표 자료 PDF | `site/content/posts/study-*/*-slides.pdf` | 직접 제작 | 본인이 만든 발표 자료. 자료 안의 논문 그림은 각 자료의 참고문헌에 출처 표기 |
+| Pick & Keep 제안 발표 PDF | `site/content/posts/project-pick-and-keep/` | 직접 제작 | 2인 팀 프로젝트 제안 발표 자료(팀원 이름 제외) |
+| 바운딩 박스 비교 이미지 | `site/content/posts/research-bbox-yolo-qwen/` | 직접 제작 + 외부 자료 | 직접 실험해 만든 시각화. 원본 사진과 정답 박스는 [COCO 데이터셋](https://cocodataset.org/) |
+| COALA 활동 계획 이미지 | `site/content/posts/experience-coala/` | 외부 자료 | COALA 동아리 신입 모집 홍보 자료 |
+
+### 글에서 인용한 논문
+
+각 공부 기록 글에 논문 정보와 링크를 표기했습니다.
+
+- UCF-Crime-DVS (Qian et al., AAAI 2025) — https://arxiv.org/abs/2503.12905
+- Swin Transformer (Liu et al., ICCV 2021) — https://arxiv.org/abs/2103.14030
+- ConvNeXt (Liu et al., CVPR 2022) — https://arxiv.org/abs/2201.03545
+- CLIP (Radford et al., ICML 2021) — https://arxiv.org/abs/2103.00020
+- VadCLIP (Wu et al., AAAI 2024) — https://arxiv.org/abs/2308.11681
+- CPL-VAD (Lee et al., arXiv 2026) — https://arxiv.org/abs/2602.17077
+
+### AI 도구 활용
+
+사이트 설정, 글 문장 다듬기, 오류 분석과 동작 확인에 AI 도구(Claude Code 등)를 활용했습니다.
+글의 내용은 본인이 실제로 수행한 연구, 공부, 프로젝트, 동아리 활동을 바탕으로 하며, AI가 제안한 문장과 설정은 직접 검토하고 수정해 반영했습니다.
