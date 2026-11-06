@@ -18,7 +18,7 @@
 
         {{- /* Paginate */ -}}
         {{- if .Pages -}}
-            {{- $pages := .Pages.GroupByDate "2006" "asc" -}}
+            {{- $pages := .Pages.GroupByDate "2006" -}}
             {{- with .Site.Params.list.paginate | default .Site.Params.paginate -}}
                 {{- $pages = $.Paginate $pages . -}}
             {{- else -}}
@@ -26,7 +26,7 @@
             {{- end -}}
             {{- range $pages.PageGroups -}}
                 <h3 class="group-title">{{ .Key }}</h3>
-                {{- range .Pages -}}
+                {{- range .Pages.ByWeight -}}
                     <article class="archive-item">
                         <a href="{{ .RelPermalink }}" class="archive-item-link">
                             {{- .Title | emojify -}}
