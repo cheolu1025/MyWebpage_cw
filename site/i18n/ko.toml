@@ -1,0 +1,11 @@
+# Overrides for the theme's Korean translations (site/themes/template/i18n/ko.toml).
+# List page titles should match the English menu labels (Activities, Tags, Categories).
+
+[allSome]
+other = "{{ .Some }}"
+
+[tags]
+other = "Tags"
+
+[categories]
+other = "Categories"
