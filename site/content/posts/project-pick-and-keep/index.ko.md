@@ -22,6 +22,7 @@ toc:
 - 현재 상태: 진행 중 (주제·기능 확정, 시스템 설계, 제안 발표 완료 / 구현 시작 전)
 - 실습 환경: AWS Academy Learner Lab
 - 사용 예정 기술: Python, Flask, boto3, Pillow, SQLite, AWS EC2·S3·Rekognition·IAM
+- 제안 발표 자료: [Pick & Keep 제안 발표 (PDF, 약 0.4MB)](pick-and-keep-proposal-slides.pdf)
 
 ## 문제의식
 
