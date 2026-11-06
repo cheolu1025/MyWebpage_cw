@@ -4,7 +4,7 @@ date: 2026-11-05
 draft: false
 description: "DVS 연구에 쓰는 비전-언어 모델이 YOLO만큼 정확한 바운딩 박스를 낼 수 있는지 COCO 정답과 비교해 본 실험 기록"
 tags: ["YOLO", "Qwen2.5-VL", "Object Detection", "Bounding Box", "IoU", "COCO"]
-categories: ["Studies"]
+categories: ["Research"]
 toc:
   enable: true
 ---
