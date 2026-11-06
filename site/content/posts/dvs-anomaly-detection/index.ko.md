@@ -1,6 +1,7 @@
 ---
 title: "이벤트 카메라 영상 기반 이상 행동 탐지 연구"
 date: 2026-11-05
+weight: 1
 draft: false
 description: "학부연구생으로 참여 중인 UCF-Crime-DVS 기반 영상 이상 행동 탐지 연구 기록"
 tags: ["Event Camera", "DVS", "Video Anomaly Detection", "PyTorch"]
