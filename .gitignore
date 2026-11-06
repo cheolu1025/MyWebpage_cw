@@ -40,3 +40,4 @@ $RECYCLE.BIN/
 **/.DS_Store
 /site/public/
 /site/resources/
+**/assets/jsconfig.json
