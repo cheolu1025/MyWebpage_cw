@@ -106,7 +106,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   description = "Personal portfolio of Cheolwoo Park"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/logo.png"]
+  images = ["images/avatar.jpg"]
 
   # Author config
   # 作者配置
