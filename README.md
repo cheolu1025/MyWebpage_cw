@@ -113,7 +113,7 @@ hugo --gc --minify --config hugo.toml,pages.json --theme template --themesDir th
 | 자료 | 사용 위치 | 구분 | 원본 | 이용 조건 |
 | --- | --- | --- | --- | --- |
 | LoveIt 테마 | `site/themes/template/` 전체, `site/layouts/`의 덮어쓴 템플릿 | 외부 자료 | https://github.com/dillonzq/LoveIt | MIT License. 원본 고지는 `LICENSE`와 `site/themes/template/LICENSE`에 유지 |
-| 테마 기본 아이콘(favicon 등) | `site/static/` | 외부 자료 (LoveIt 테마 포함) | LoveIt 테마 | MIT License |
+| 사이트 아이콘(헤더 로고, favicon, 앱 아이콘) | `site/hugo.toml`의 헤더 로고, `site/static/`의 아이콘 파일 | 직접 제작 | 스캔 테두리 안의 눈과, 눈동자에서 퍼지는 이벤트 신호(점)를 표현해 SVG로 직접 디자인하고 크기별 PNG·ICO로 변환 | 직접 제작 자료 |
 | Hugo | 사이트 빌드 | 외부 도구 | https://gohugo.io/ | Apache License 2.0 |
 | 배포 준비 스크립트 | `prepare_github_pages.py`, `.github/pages_build.py`, `.github/workflows/hugo-pages.yml` | 외부 자료 (수업 제공) | 2026학년도 초급프로젝트 수업 제공 스크립트 | 수업 안내에 따름 |
 
