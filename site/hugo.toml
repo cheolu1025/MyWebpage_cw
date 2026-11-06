@@ -699,10 +699,10 @@ accessToken=""
   [params.seo]
     # image URL
     # 图片 URL
-    image = "/images/Apple-Devices-Preview.png"
+    image = "images/avatar.jpg"
     # thumbnail URL
     # 缩略图 URL
-    thumbnailUrl = "/images/screenshot.png"
+    thumbnailUrl = "images/avatar.jpg"
 
   # Analytics config
   # 网站分析配置
