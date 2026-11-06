@@ -903,10 +903,6 @@ accessToken=""
         snippetLength = 30
         highlightTag = "em"
         absoluteURL = false
-        [languages.ko.params.search.algolia]
-          index = "index"
-          appID = "4D1IDY8JU6"
-          searchKey = "05332ac5ed76655a511f0da583a9afac"
       [languages.ko.params.home]
         rss = 10
         [languages.ko.params.home.profile]
