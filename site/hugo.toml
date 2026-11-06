@@ -666,7 +666,7 @@ accessToken=""
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "Cheolwoo Park"
         logoUrl = "/images/avatar.jpg"
 
   # TypeIt config
