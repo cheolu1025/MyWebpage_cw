@@ -1,237 +1,107 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="images/logo/logo-wordmark-dark.svg">
-    <img src="images/logo/logo-wordmark-light.svg" alt="LoveIt" height="72">
-  </picture>
-</p>
+# CW.dev
 
-# LoveIt Theme | Hugo
+Cheolwoo Park의 개인 소개 사이트입니다. [Hugo](https://gohugo.io/)와 [LoveIt 테마](https://github.com/dillonzq/LoveIt)로 만들었고, GitHub Actions를 통해 GitHub Pages에 자동으로 배포합니다.
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/releases)
-[![Hugo](https://img.shields.io/badge/Hugo-%5E0.146.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/blob/master/LICENSE)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e60303f2-862c-4342-bf59-7c9adb10812e/deploy-status)](https://app.netlify.com/sites/hugo-loveit/deploys)
-[![CI](https://github.com/dillonzq/LoveIt/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/dillonzq/LoveIt/actions/workflows/ci.yml)
-[![Nightly](https://github.com/dillonzq/LoveIt/actions/workflows/nightly.yml/badge.svg?branch=master&event=schedule)](https://github.com/dillonzq/LoveIt/actions/workflows/nightly.yml)
+- 사이트: https://cheolu1025.github.io/MyWebpage_cw/
+- 저장소: https://github.com/cheolu1025/MyWebpage_cw
+- 배포 기록: https://github.com/cheolu1025/MyWebpage_cw/actions
 
-English README | [简体中文说明](https://github.com/dillonzq/LoveIt/blob/master/README.zh-cn.md)
+## 폴더 구조
 
-> **LoveIt** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
+실제로 빌드되는 사이트는 `site/` 폴더에 있습니다. 저장소 루트의 나머지 파일(`layouts/`, `assets/`, `hugo.toml` 등)은 처음 내려받은 LoveIt 테마 ZIP의 원본이며 빌드에 사용하지 않습니다.
 
-It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
-
-Since the three themes have a similar look, if you have questions about their differences,
-read [Why choose LoveIt](#why-choose-loveit) so that you can choose the one that works best for you.
-
-![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
-
-## [Demo Site](https://hugoloveit.com/)
-
-To see this theme in action, here is a live [demo site](https://hugoloveit.com/) which is rendered with **LoveIt** theme.
-
-## Why choose LoveIt
-
-Compared to the original LeaveIt theme and the KeepIt theme, the LoveIt theme has the following modifications.
-
-* Custom **Header**
-* Custom **CSS Style**
-* A new **home page**, compatible with the latest version of Hugo
-* A lot of **style detail adjustments,** including color, font size, margins, code preview style
-* More readable **dark mode**
-* Some beautiful **CSS animations**
-* Easy-to-use and self-expanding **table of contents**
-* More **social links**, **share sites** and **comment system**
-* **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* **Copy code** to clipboard with one click
-* Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
-* Extended Markdown syntax for **ruby annotation**
-* Extended Markdown syntax for **fraction**
-* **Mathematical formula** supported by [KaTeX](https://katex.org/)
-* **Diagram syntax** shortcode supported by [mermaid](https://github.com/mermaid-js/mermaid)
-* **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-* **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* Embedded **music player** supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-* **Bilibili** player supported
-* Kinds of **admonitions** shortcode supported
-* Custom style shortcodes supported
-* **CDN** for all third-party libraries supported
-* ...
-
-In short,
-if you prefer the design language and freedom of the LoveIt theme,
-if you want to use the extended Font Awesome icons conveniently,
-if you want to embed mathematical formulas, flowcharts, music or Bilibili videos in your posts,
-the LoveIt theme may be more suitable for you.
-
-I hope you will LoveIt ❤️!
-
-## Features
-
-### Performance and SEO
-
-* Optimized for **performance**: 99/100 on mobile and 100/100 on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
-* Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
-* **[Google Analytics](https://analytics.google.com/analytics)** supported
-* **[Fathom Analytics](https://usefathom.com/)** supported
-* **[Plausible Analytics](https://plausible.io/)** supported
-* **[Yandex Metrica](https://metrica.yandex.com/)** supported
-* Search engine **verification** supported (Google, Bind, Yandex and Baidu)
-* **CDN** for third-party libraries supported
-* Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)
-
-### Appearance and Layout
-
-* **Desktop/Mobile Responsive** layout
-* **Light/Dark** mode
-* Globally consistent **design language**
-* **Pagination** supported
-* Easy-to-use and self-expanding **table of contents**
-* **Multilanguage** supported and i18n ready
-* Beautiful **CSS animation**
-
-### Social and Comment Systems
-
-* **Gravatar** supported by [Gravatar](https://gravatar.com)
-* Local **Avatar** supported
-* Up to **84** social links supported
-* Up to **27** share sites supported
-* **Disqus** comment system supported by [Disqus](https://disqus.com)
-* **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
-* **Valine** comment system supported by [Valine](https://valine.js.org/)
-* **Facebook comments** system supported by [Facebook](https://developers.facebook.com/docs/plugins/comments/)
-* **Telegram comments** system supported by [Telegram Comments](https://comments.app/)
-* **Commento** comment system supported by [Commento](https://commento.io/)
-* **utterances** comment system supported by [utterances](https://utteranc.es/)
-* **giscus** comment system supported by [giscus](https://giscus.app/)
-
-### Extended Features
-
-* **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* **Twemoji** supported
-* Automatically **highlighting** code
-* **Copy code** to clipboard with one click
-* **Images gallery** supported by [lightGallery](https://github.com/sachinchoolur/lightgallery)
-* Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
-* Extended Markdown syntax for **ruby annotation**
-* Extended Markdown syntax for **fraction**
-* **Mathematical formula** supported by [KaTeX](https://katex.org/)
-* **Diagrams** shortcode supported by [mermaid](https://github.com/mermaid-js/mermaid)
-* **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-* **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* **Music player** shortcode supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-* **Bilibili player** shortcode
-* Kinds of **admonitions** shortcode
-* **Custom style** shortcode
-* **Custom script** shortcode
-* **Animated typing** supported by [TypeIt](https://typeitjs.com/)
-* **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
-* **Person** shortcode
-* ...
-
-## [Documentation](https://hugoloveit.com/categories/documentation/)
-
-Build Documentation Locally:
-
-```bash
-npm ci --ignore-scripts
-npm run dev
+```text
+.
+├── .github/
+│   ├── workflows/hugo-pages.yml   # main push 시 빌드·배포하는 워크플로
+│   └── pages_build.py             # 워크플로가 호출하는 빌드 스크립트
+├── .github-pages.json             # 빌드 설정(사용할 설정 파일, 테마 이름, 주소)
+└── site/
+    ├── hugo.toml                  # 사이트 설정(제목, 메뉴, 프로필, 언어 등)
+    ├── pages.json                 # 배포용 추가 설정(baseURL, 테마 위치)
+    ├── content/
+    │   ├── about/index.ko.md      # About 페이지
+    │   └── posts/<글 이름>/        # Activities 글(본문 index.ko.md와 첨부 파일)
+    ├── assets/images/avatar.jpg   # 홈 프로필 이미지
+    ├── layouts/                   # 테마 템플릿을 덮어쓴 파일
+    └── themes/template/           # LoveIt 테마(폴더 복사 방식)
 ```
 
-Development uses `.hvm` to pin Hugo and npm to provide Dart Sass. Run `npm run build` for production; see the [development guide](docs/development.md) for version overrides, search and tests.
+## 사용 도구와 버전
 
-## Compatibility
+| 도구 | 버전 | 용도 |
+| --- | --- | --- |
+| Hugo (extended) | 0.167.0 | 사이트 빌드 |
+| Dart Sass | 1.105.0 | 테마의 SCSS를 CSS로 변환 |
+| Git | 최신 버전 | 버전 관리와 push |
+| Python | 3.12 (워크플로) | 배포용 빌드 스크립트 실행 |
+| Node.js | 24 (워크플로) | 테마 빌드 도구 설치 |
 
-| LoveIt branch or version | Supported Hugo versions |
-|:-------------------------|:-----------------------:|
-| master(Unstable)         |       >= 0.146.0        |
-| **0.3.X(Recommended)**   |    0.128.0 - 0.145.0    |
-| 0.2.X(Outdated)          |    0.68.0 - 0.127.0     |
+로컬에서 사이트를 확인할 때는 Hugo extended와 Dart Sass만 있으면 됩니다. Python과 Node.js는 GitHub Actions에서만 사용합니다.
 
-## Multilingual and i18n
+## 설치
 
-LoveIt supports the following languages:
+1. Hugo extended 0.167.0을 설치합니다. [Hugo 릴리스 페이지](https://github.com/gohugoio/hugo/releases/tag/v0.167.0)에서 운영체제에 맞는 `hugo_extended_0.167.0_*` 파일을 받습니다.
+2. Dart Sass 1.105.0을 설치합니다. [Dart Sass 릴리스 페이지](https://github.com/sass/dart-sass/releases/tag/1.105.0)에서 파일을 받아 압축을 풀고, `sass` 실행 파일이 있는 폴더를 PATH에 추가합니다.
+3. 설치를 확인합니다.
 
-* English
-* Simplified Chinese
-* Traditional Chinese
-* French
-* Polish
-* Portuguese (Brazil)
-* Italian
-* Spanish
-* German
-* Serbian
-* Russian
-* Romanian
-* Vietnamese
-* Arabic
-* Catalan
-* Thai
-* Telugu
-* Indonesian
-* Turkish
-* Korean
-* Hindi
-* Dutch
-* Bengali
-* Japanese
-* [Contribute with a new language](https://github.com/dillonzq/LoveIt/pulls)
+   ```bash
+   hugo version
+   sass --version
+   ```
 
-[Languages Compatibility](https://hugoloveit.com/theme-documentation-basics/#language-compatibility)
+4. 저장소를 내려받습니다.
 
-## [Roadmap](https://github.com/dillonzq/LoveIt/projects/1)
+   ```bash
+   git clone https://github.com/cheolu1025/MyWebpage_cw.git
+   cd MyWebpage_cw
+   ```
 
-## Questions, ideas, bugs, pull requests
+## 로컬에서 실행하기
 
-All feedback is welcome! Head over to the [issue tracker](https://github.com/dillonzq/LoveIt/issues).
+모든 명령은 `site/` 폴더에서 실행합니다.
 
-## License
+미리보기 서버를 켜고 브라우저에서 http://localhost:1313/MyWebpage_cw/ 를 엽니다. 파일을 저장하면 화면이 자동으로 새로고침됩니다.
 
-LoveIt is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
+```bash
+cd site
+hugo server --config hugo.toml,pages.json --theme template --themesDir themes
+```
 
-## Special Thanks
+배포와 같은 방식으로 빌드 결과만 만들려면 다음 명령을 사용합니다. 결과는 저장소 루트의 `public/` 폴더에 생성되며, 이 폴더는 Git에 올라가지 않습니다.
 
-Thanks to the authors of following resources included in the theme:
+```bash
+cd site
+hugo --gc --minify --config hugo.toml,pages.json --theme template --themesDir themes --destination ../public
+```
 
-* [modern-normalize](https://github.com/sindresorhus/modern-normalize)
-* [Font Awesome](https://fontawesome.com/)
-* [Simple Icons](https://github.com/simple-icons/simple-icons)
-* [Animate.css](https://daneden.github.io/animate.css/)
-* [autocomplete](https://github.com/algolia/autocomplete)
-* [Lunr.js](https://lunrjs.com/)
-* [algoliasearch](https://github.com/algolia/algoliasearch-client-javascript)
-* [lazysizes](https://github.com/aFarkas/lazysizes)
-* [object-fit-images](https://github.com/fregante/object-fit-images)
-* [Twemoji](https://github.com/twitter/twemoji)
-* [emoji-data](https://github.com/iamcal/emoji-data)
-* [lightGallery](https://github.com/sachinchoolur/lightgallery)
-* [clipboard.js](https://github.com/zenorocha/clipboard.js)
-* [Sharer.js](https://github.com/ellisonleao/sharer.js)
-* [TypeIt](https://typeitjs.com/)
-* [KaTeX](https://katex.org/)
-* [mermaid](https://github.com/mermaid-js/mermaid)
-* [ECharts](https://echarts.apache.org/)
-* [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* [APlayer](https://github.com/MoePlayer/APlayer)
-* [MetingJS](https://github.com/metowolf/MetingJS)
-* [Gitalk](https://github.com/gitalk/gitalk)
-* [Valine](https://valine.js.org/)
-* [cookieconsent](https://github.com/osano/cookieconsent)
+## 내용 수정과 재배포
 
-## Author
+### 수정할 파일 위치
 
-[Dillon](https://dillonzq.com)
+| 바꾸고 싶은 것 | 파일 |
+| --- | --- |
+| 사이트 제목, 메뉴, 홈 프로필 문구, 소셜 링크 | `site/hugo.toml` |
+| About 페이지 | `site/content/about/index.ko.md` |
+| Activities 글 | `site/content/posts/<글 이름>/index.ko.md` |
+| 새 글 추가 | `site/content/posts/`에 새 폴더를 만들고 `index.ko.md` 작성 |
+| 프로필 이미지 | `site/assets/images/avatar.jpg` |
+| 화면 템플릿 수정 | `site/layouts/` (테마 원본 `site/themes/template/`은 수정하지 않음) |
 
-## Sponsor
+새 글의 앞부분(front matter)에는 `date`, `weight`(목록 순서, 작을수록 위), `categories`(Research, Studies, Projects, Experience 중 하나)를 넣습니다.
 
-If you enjoy the theme, please consider buying me a coffee ☕️.
+### 재배포 순서
 
-* [PayPal](https://paypal.me/dillonzq)
-* [Alipay](https://github.com/dillonzq/LoveIt/raw/master/images/Alipay.jpg)
-* [Wechat](https://github.com/dillonzq/LoveIt/raw/master/images/Wechat.jpg)
+1. 파일을 수정하고 로컬 미리보기로 확인합니다.
+2. 수정한 파일만 골라 커밋하고 main 브랜치에 push합니다.
 
-Thanks! ❤️
+   ```bash
+   git add <수정한 파일>
+   git commit -m "변경 내용을 설명하는 메시지"
+   git push
+   ```
 
-## Stargazers over time
+3. 저장소의 [Actions 탭](https://github.com/cheolu1025/MyWebpage_cw/actions)에서 방금 커밋 메시지와 같은 이름의 "Deploy Hugo to GitHub Pages" 실행이 초록색 체크로 끝나는지 확인합니다. 보통 1~3분 걸립니다.
+4. https://cheolu1025.github.io/MyWebpage_cw/ 를 열어 바뀐 내용을 확인합니다. 이전 화면이 보이면 강력 새로고침(macOS `⌘ + Shift + R`, Windows `Ctrl + Shift + R`)을 하거나 시크릿 창으로 엽니다.
 
-[![Stargazers over time](https://starchart.cc/dillonzq/LoveIt.svg)](https://starchart.cc/dillonzq/LoveIt)
+실행이 빨간색 X로 실패하면 해당 실행을 눌러 실패한 단계의 로그를 확인합니다. 빌드는 성공했는데 배포 단계만 시간 초과로 실패한 경우에는, 다음 push의 배포가 성공하면 그 사이 변경도 함께 반영됩니다.
