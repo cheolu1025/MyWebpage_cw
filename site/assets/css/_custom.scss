@@ -2,3 +2,13 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+// The mobile menu toggle is a <button> (see layouts/_partials/header.html)
+// so it is keyboard reachable; reset the browser's default button styles.
+#menu-toggle-mobile {
+  background: none;
+  border: 0;
+  padding: 0 0.25rem;
+  font: inherit;
+  color: inherit;
+}
