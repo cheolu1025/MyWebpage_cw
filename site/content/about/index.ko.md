@@ -7,10 +7,10 @@ description: "전북대학교 컴퓨터인공지능학부 학생 Cheolwoo Park�
 
 ## 소개
 
-안녕하세요, **Cheolwoo Park**입니다.
+안녕하세요, Cheolwoo Park입니다.
 
-전북대학교 컴퓨터인공지능학부에서 공부하고 있으며, **컴퓨터 비전(Computer Vision)** 분야에 관심을 두고 있습니다.
-현재는 **학부연구생**으로 연구실에서 이벤트 카메라(DVS) 영상을 활용한 **영상 이상 행동 탐지(Video Anomaly Detection)** 연구에 참여하고 있습니다.
+전북대학교 컴퓨터인공지능학부에서 공부하고 있으며, 컴퓨터비전(Computer Vision) 분야에 관심을 두고 있습니다.
+현재는 학부연구생으로 연구실에서 이벤트 카메라(DVS) 영상을 활용한 영상 이상 행동 탐지(Video Anomaly Detection) 연구에 참여하고 있습니다.
 
 ## 관심 분야
 
