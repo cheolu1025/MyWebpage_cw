@@ -2,6 +2,11 @@
 title: "CPL-VAD: 두 갈래가 서로를 가르치는 이상 행동 탐지"
 date: 2026-11-06
 weight: 5
+resources:
+  - name: "featured-image"
+    src: "featured-image.jpg"
+  - name: "featured-image-preview"
+    src: "featured-image-preview.jpg"
 draft: false
 description: "이진 탐지와 이상 종류 분류 두 갈래가 의사 라벨을 주고받으며 서로를 보완하는 CPL-VAD 논문을 정리한 공부 기록"
 tags: ["CPL-VAD", "Video Anomaly Detection", "Weakly Supervised", "Pseudo Label", "CLIP"]
@@ -20,6 +25,7 @@ VadCLIP에 이어, 이상 구간의 위치와 이상의 종류를 함께 잘 맞
 - 논문: Dayeon Lee et al., "Cross Pseudo Labeling for Weakly Supervised Video Anomaly Detection," arXiv preprint, 2026. ([arXiv:2602.17077](https://arxiv.org/abs/2602.17077))
 - 범위: 두 갈래 구조, Cross Pseudo Labeling, 의사 라벨 정제(CAR), 학습 방법
 - 발표 자료: [CPL-VAD (PDF, 약 1.2MB)](cpl-vad-slides.pdf)
+- 대표 이미지: CPL-VAD 논문(Lee et al., 2026)의 Fig. 2 전체 구조 그림, 발표 자료에서 인용
 
 ## 문제의식: 두 갈래의 장단점
 
