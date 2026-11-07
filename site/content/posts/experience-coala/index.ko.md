@@ -2,6 +2,11 @@
 title: "학부 동아리 COALA 부회장 활동"
 date: 2026-11-07
 weight: 4
+resources:
+  - name: "featured-image"
+    src: "featured-image.jpg"
+  - name: "featured-image-preview"
+    src: "featured-image-preview.jpg"
 draft: false
 description: "전북대학교 컴퓨터인공지능학부 동아리 COALA에서 부회장으로 행사 기획, 스터디 운영 계획, 신입 모집을 맡은 기록"
 tags: ["COALA", "동아리", "스터디", "운영"]
@@ -19,6 +24,7 @@ toc:
 - 동아리: COALA, 전북대학교 컴퓨터인공지능학부 동아리
 - 역할: 부회장
 - 기간: 2026년 2학기 ~ 현재 (진행 중)
+- 대표 이미지: COALA 2026년 2학기 부원 모집 홍보 자료
 
 ## COALA는 어떤 동아리인가
 
