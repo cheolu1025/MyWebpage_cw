@@ -4,7 +4,9 @@ date: 2026-11-07
 weight: 2
 resources:
   - name: "featured-image"
-    src: "featured-image.webp"
+    src: "featured-image.jpg"
+  - name: "featured-image-preview"
+    src: "featured-image-preview.jpg"
 draft: false
 description: "DVS 연구에 쓰는 비전-언어 모델이 YOLO만큼 정확한 바운딩 박스를 낼 수 있는지 COCO 정답과 비교해 본 실험 기록"
 tags: ["YOLO", "Qwen2.5-VL", "Object Detection", "Bounding Box", "IoU", "COCO"]
@@ -27,7 +29,7 @@ DVS 연구에서 비전-언어 모델이 찾은 객체 위치를 활용할 수 �
   - Qwen Basic: Qwen2.5-VL-7B에 기본 요청만 준 경우
   - Qwen DVS: 같은 모델에 DVS 연구용으로 직접 설계한 프롬프트를 적용한 경우 (프롬프트 내용은 연구 중이라 공개하지 않습니다)
 - 평가 지표: 예측한 박스 수, 그리고 정답 박스와 얼마나 겹치는지를 나타내는 IoU의 평균(Mean IoU)
-- 대표 이미지: 아래 예시 1(사람 3명)의 비교 그림
+- 대표 이미지: 거리 영상에 YOLO 객체 탐지 결과(사람, 자전거, 차량 등의 바운딩 박스와 신뢰도)를 표시한 예시, 출처 Elixir용 YOLO 라이브러리 문서 [YOLO v0.2.0 README](https://yolo.hexdocs.pm/readme.html) (HexDocs)
 
 ## 비교 방법
 
