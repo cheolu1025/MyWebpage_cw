@@ -2,6 +2,11 @@
 title: "CLIP: 자연어로 시각 표현을 배우는 모델"
 date: 2026-11-06
 weight: 8
+resources:
+  - name: "featured-image"
+    src: "featured-image.jpg"
+  - name: "featured-image-preview"
+    src: "featured-image-preview.jpg"
 draft: false
 description: "이미지와 텍스트를 같은 공간에 정렬해 제로샷 분류를 가능하게 한 CLIP 논문을 정리한 공부 기록"
 tags: ["CLIP", "Vision-Language", "Contrastive Learning", "Zero-shot"]
@@ -20,6 +25,7 @@ toc:
 - 논문: Alec Radford et al., "Learning Transferable Visual Models From Natural Language Supervision," ICML 2021. ([arXiv:2103.00020](https://arxiv.org/abs/2103.00020))
 - 범위: 연구 배경, 데이터셋 구성, 사전학습 방법, 모델 구조와 규모
 - 발표 자료: [CLIP (PDF, 약 0.5MB)](clip-slides.pdf)
+- 대표 이미지: CLIP 논문(Radford et al., ICML 2021)의 대조 사전학습 그림, 발표 자료에서 인용
 
 ## 연구 배경
 
