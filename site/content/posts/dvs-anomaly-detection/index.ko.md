@@ -2,6 +2,11 @@
 title: "이벤트 카메라 영상 기반 이상 행동 탐지 연구"
 date: 2026-11-06
 weight: 1
+resources:
+  - name: "featured-image"
+    src: "featured-image.jpg"
+  - name: "featured-image-preview"
+    src: "featured-image-preview.jpg"
 draft: false
 description: "학부연구생으로 참여 중인 UCF-Crime-DVS 기반 영상 이상 행동 탐지 연구 기록"
 tags: ["Event Camera", "DVS", "Video Anomaly Detection", "PyTorch"]
@@ -20,6 +25,7 @@ toc:
 - 형태: 학부연구생, 연구실 연구
 - 분야: 이벤트 기반 비전(Event-based Vision), 영상 이상 행동 탐지(Video Anomaly Detection)
 - 사용 도구: Python, PyTorch, Docker
+- 대표 이미지: 일반 카메라(Frame-based)와 이벤트 카메라(Event-based) 출력 비교, 출처 [Prophesee](https://www.prophesee.ai/) YouTube 채널 영상
 
 ## 연구 배경과 목표
 
