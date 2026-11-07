@@ -22,3 +22,16 @@
     padding-bottom: 45vh;
   }
 }
+
+// Featured images: a thin border so images with a white background
+// (slides, paper figures) stand apart from the page background.
+// Black in light mode; a light gray in dark mode, where black would vanish.
+.home .summary .featured-image-preview,
+.single .featured-image img {
+  border: 1px solid #000;
+  box-sizing: border-box;
+
+  [theme=dark] & {
+    border-color: #a9a9b3;
+  }
+}
