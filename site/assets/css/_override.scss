@@ -2,3 +2,27 @@
 // Override Variables
 // 覆盖变量
 // ==============================
+
+// Site accent: the blue of the logo's event dots (#3b82f6).
+// Text uses the darker #2563eb in light mode and #60a5fa in dark mode so
+// links keep a contrast ratio above 4.5:1 against the page background.
+$global-link-hover-color: #2563eb;
+$global-link-hover-color-dark: #60a5fa;
+
+$header-hover-color: #2563eb;
+$header-hover-color-dark: #60a5fa;
+
+// Links and heading marks inside posts (theme default: teal links, pink hover)
+$single-link-color: #2563eb;
+$single-link-color-dark: #60a5fa;
+$single-link-hover-color: #1e40af;
+$single-link-hover-color-dark: #93c5fd;
+
+$pagination-link-color: #2563eb;
+$pagination-link-color-dark: #60a5fa;
+
+$blockquote-color: #3b82f6;
+$blockquote-color-dark: #60a5fa;
+
+$selection-color: rgba(59, 130, 246, 0.2);
+$selection-color-dark: rgba(59, 130, 246, 0.4);
