@@ -85,3 +85,75 @@
     border-color: #3f4045;
   }
 }
+
+// Accent touches on the home cards: "더 읽기" in the accent blue, and the
+// card title turns blue while the card is hovered.
+.home[data-home=posts] .summary {
+  .post-footer > a {
+    color: #2563eb;
+    font-weight: 600;
+
+    [theme=dark] & {
+      color: #60a5fa;
+    }
+  }
+
+  &:hover .single-title a {
+    color: #2563eb;
+
+    [theme=dark] & {
+      color: #60a5fa;
+    }
+  }
+}
+
+// Category label as a colored chip, one color per kind of activity, so the
+// four kinds can be told apart at a glance (home cards and post pages).
+// Text/background pairs keep a contrast ratio above 4.5:1.
+.post-category a {
+  display: inline-block;
+  padding: 0 0.5rem;
+  border-radius: 999px;
+  line-height: 1.6;
+  color: #1d4ed8;
+  background-color: #dbeafe;
+
+  &[href*="/categories/studies/"] {
+    color: #047857;
+    background-color: #d1fae5;
+  }
+
+  &[href*="/categories/projects/"] {
+    color: #92400e;
+    background-color: #fef3c7;
+  }
+
+  &[href*="/categories/experience/"] {
+    color: #6d28d9;
+    background-color: #ede9fe;
+  }
+
+  [theme=dark] & {
+    color: #93c5fd;
+    background-color: rgba(59, 130, 246, 0.18);
+
+    &[href*="/categories/studies/"] {
+      color: #6ee7b7;
+      background-color: rgba(16, 185, 129, 0.16);
+    }
+
+    &[href*="/categories/projects/"] {
+      color: #fcd34d;
+      background-color: rgba(245, 158, 11, 0.16);
+    }
+
+    &[href*="/categories/experience/"] {
+      color: #c4b5fd;
+      background-color: rgba(139, 92, 246, 0.18);
+    }
+  }
+
+  &:hover {
+    filter: brightness(0.95);
+  }
+}
