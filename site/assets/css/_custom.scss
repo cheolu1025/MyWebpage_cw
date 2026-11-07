@@ -183,3 +183,11 @@
 [theme=dark] .home[data-home=posts] .summary .single-title a:hover {
   color: #60a5fa;
 }
+
+// Keyboard focus: the theme removes the outline from the search box, so a
+// keyboard user could not see that it is focused. Show the accent ring.
+#search-input-desktop:focus-visible,
+#search-input-mobile:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
