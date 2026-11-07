@@ -177,3 +177,9 @@
     color: #ececf1;
   }
 }
+
+// Dark mode: the near-white card title above outranks the theme's link hover
+// color, so restore the blue hover there (light mode already turns blue).
+[theme=dark] .home[data-home=posts] .summary .single-title a:hover {
+  color: #60a5fa;
+}
