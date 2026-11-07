@@ -12,3 +12,13 @@
   font: inherit;
   color: inherit;
 }
+
+// Posts with a table of contents: leave room below the last section so the
+// last TOC entries can scroll to the top (otherwise clicking them does nothing
+// and the TOC highlight stops at an earlier section).
+// The side TOC (#toc-auto) is only shown above 960px (see theme _media.scss).
+@media only screen and (min-width: 961px) {
+  .container:has(> #toc-auto) #content {
+    padding-bottom: 45vh;
+  }
+}
