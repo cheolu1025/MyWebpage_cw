@@ -2,6 +2,11 @@
 title: "VadCLIP: CLIP으로 영상 이상 행동 탐지하기"
 date: 2026-11-06
 weight: 7
+resources:
+  - name: "featured-image"
+    src: "featured-image.jpg"
+  - name: "featured-image-preview"
+    src: "featured-image-preview.jpg"
 draft: false
 description: "CLIP의 시각-언어 지식을 약지도 영상 이상 행동 탐지에 적용한 VadCLIP 논문을 정리한 공부 기록"
 tags: ["VadCLIP", "CLIP", "Video Anomaly Detection", "Weakly Supervised"]
@@ -20,6 +25,7 @@ CLIP을 공부한 뒤, 이 모델을 제 연구 분야인 영상 이상 행동 �
 - 논문: Peng Wu et al., "VadCLIP: Adapting Vision-Language Models for Weakly Supervised Video Anomaly Detection," AAAI 2024. ([arXiv:2308.11681](https://arxiv.org/abs/2308.11681))
 - 범위: 약지도 영상 이상 행동 탐지의 문제 정의, CLIP을 적용할 때의 과제, 모델 구조와 손실 함수
 - 발표 자료: [VadCLIP (PDF, 약 1MB)](vadclip-slides.pdf)
+- 대표 이미지: VadCLIP 논문(Wu et al., AAAI 2024)의 전체 구조 그림, 발표 자료에서 인용
 
 ## 약지도 영상 이상 행동 탐지
 
