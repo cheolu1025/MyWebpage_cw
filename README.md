@@ -128,6 +128,7 @@ hugo --gc --minify --config hugo.toml,pages.json --theme template --themesDir th
 | COALA 활동 계획 이미지 | `site/content/posts/experience-coala/` | 외부 자료 | COALA 동아리 신입 모집 홍보 자료 |
 | 활동 글 대표 이미지(논문 구조 그림) | `site/content/posts/study-*/featured-image.jpg` | 외부 자료 | 각 논문의 구조 그림(CNN 구조, Swin Transformer, CLIP, VadCLIP, CPL-VAD). 본인 발표 자료에 인용한 그림을 잘라 사용, 글에 논문 출처 표기 |
 | UCF-Crime-DVS 글 대표 이미지 | `site/content/posts/study-ucf-crime-dvs/featured-image.png` | 외부 자료 | [iniVation](https://inivation.com/)의 동적 비전 센서(DVS) 구동 원리 자료(일반 카메라와 DVS 출력 비교) |
+| 이벤트 카메라 연구 글 대표 이미지 | `site/content/posts/dvs-anomaly-detection/featured-image.jpg` | 외부 자료 | [Prophesee](https://www.prophesee.ai/) YouTube 채널 영상의 일반 카메라와 이벤트 카메라 출력 비교 장면 |
 | Pick & Keep 대표 이미지 | `site/content/posts/project-pick-and-keep/featured-image.jpg` | 직접 제작 | 제안 발표 자료의 시스템 구조 슬라이드 |
 | COALA 글 대표 이미지 | `site/content/posts/experience-coala/featured-image.jpg` | 외부 자료 | COALA 동아리 2026년 2학기 부원 모집 홍보 자료 |
 | 목록용 미리보기 이미지 | `site/content/posts/*/featured-image-preview.jpg` | 직접 가공 | 위 대표 이미지를 목록 카드 비율(가로형)에 맞게 여백을 넣어 다시 만든 이미지 |
