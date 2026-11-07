@@ -2,6 +2,11 @@
 title: "Pick & Keep: AI 분류 기반 선택적 사진 클라우드 백업 서비스"
 date: 2026-11-07
 weight: 3
+resources:
+  - name: "featured-image"
+    src: "featured-image.jpg"
+  - name: "featured-image-preview"
+    src: "featured-image-preview.jpg"
 draft: false
 description: "클라우드컴퓨팅 수업 기말 프로젝트로 기획 중인, 필요한 사진만 골라 S3에 보관하는 웹 서비스의 기획·설계 기록"
 tags: ["AWS", "EC2", "S3", "Rekognition", "Flask", "Cloud"]
@@ -23,6 +28,7 @@ toc:
 - 실습 환경: AWS Academy Learner Lab
 - 사용 예정 기술: Python, Flask, boto3, Pillow, SQLite, AWS EC2·S3·Rekognition·IAM
 - 제안 발표 자료: [Pick & Keep 제안 발표 (PDF, 약 0.4MB)](pick-and-keep-proposal-slides.pdf)
+- 대표 이미지: 제안 발표 자료의 시스템 구조(전체 구성) 슬라이드
 
 ## 문제의식
 
