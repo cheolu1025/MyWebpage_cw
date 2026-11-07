@@ -2,6 +2,9 @@
 title: "Swin Transformer와 ConvNeXt"
 date: 2026-11-06
 weight: 9
+resources:
+  - name: "featured-image"
+    src: "featured-image.jpg"
 draft: false
 description: "ViT의 한계를 푼 Swin Transformer와, Transformer 시대에 CNN을 다시 설계한 ConvNeXt를 함께 정리한 공부 기록"
 tags: ["Swin Transformer", "ConvNeXt", "ViT", "CNN"]
@@ -21,6 +24,7 @@ CNN과 ViT의 차이를 공부한 뒤, 두 구조가 서로의 장점을 어떻�
   - Ze Liu et al., "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows," ICCV 2021. ([arXiv:2103.14030](https://arxiv.org/abs/2103.14030))
   - Zhuang Liu et al., "A ConvNet for the 2020s," CVPR 2022. ([arXiv:2201.03545](https://arxiv.org/abs/2201.03545))
 - 발표 자료: [Swin Transformer & ConvNeXt (PDF, 약 4.7MB)](swin-transformer-convnext-slides.pdf)
+- 대표 이미지: Swin Transformer 논문(Liu et al., ICCV 2021)의 전체 구조 그림, 발표 자료에서 인용
 
 ## Swin Transformer
 
