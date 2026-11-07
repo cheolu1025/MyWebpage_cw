@@ -2,6 +2,9 @@
 title: "CNN 기초부터 ResNet, U-Net까지"
 date: 2026-11-06
 weight: 10
+resources:
+  - name: "featured-image"
+    src: "featured-image.jpg"
 draft: false
 description: "MLP의 한계에서 출발해 CNN의 구조, ResNet, U-Net, 그리고 ViT와의 차이까지 정리한 공부 기록"
 tags: ["CNN", "ResNet", "U-Net", "ViT"]
@@ -20,6 +23,7 @@ toc:
 - 범위: MLP의 한계 → CNN의 구조 → ResNet → U-Net → CNN과 ViT 비교
 - 형태: 개념을 정리해 발표 자료로 만들고 발표
 - 발표 자료: [CNN 기초부터 ResNet, U-Net까지 (PDF, 약 20MB)](cnn-resnet-unet-slides.pdf)
+- 대표 이미지: 발표 자료의 "CNN의 구조" 슬라이드에 인용한 CNN 구조 그림
 
 ## 왜 CNN이 필요했나
 
