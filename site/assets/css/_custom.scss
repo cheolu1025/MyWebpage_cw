@@ -23,25 +23,65 @@
   }
 }
 
-// Featured images: a thin border so images with a white background
-// (slides, paper figures) stand apart from the page background.
-// Black in light mode; a light gray in dark mode, where black would vanish.
-.home .summary .featured-image-preview,
-.single .featured-image img {
-  border: 2px solid #000;
-  box-sizing: border-box;
+// Home post list as cards: each activity sits in its own rounded card with a
+// soft border and shadow instead of a dashed divider. On hover the card lifts
+// slightly and the border takes the site accent blue (#3b82f6, as in the logo).
+.home[data-home=posts] .summary {
+  padding: 1.25rem 1.5rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    border-color: #3b82f6;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.1);
+    transform: translateY(-2px);
+  }
+
+  .featured-image-preview {
+    margin-top: 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+  }
 
   [theme=dark] & {
-    border-color: #a9a9b3;
+    border: 1px solid #3f4045;
+    background-color: #2f3034;
+    box-shadow: none;
+
+    &:hover {
+      border-color: #3b82f6;
+    }
+
+    .featured-image-preview {
+      border-color: #3f4045;
+    }
+  }
+
+  @media only screen and (max-width: 680px) {
+    padding: 1rem 1rem 0.8rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+
+    &:hover {
+      transform: none;
+    }
   }
 }
 
-// Home post list: replace the faint dashed divider between posts
-// with a solid black line (light gray in dark mode).
-.home[data-home=posts] .summary {
-  border-bottom: 2px solid #000;
+// Post page: the same light frame around the featured image, so figures with
+// a white background still have a visible edge.
+.single .featured-image img {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
 
   [theme=dark] & {
-    border-bottom: 2px solid #a9a9b3;
+    border-color: #3f4045;
   }
 }
