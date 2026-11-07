@@ -86,25 +86,27 @@
   }
 }
 
-// Accent touches on the home cards: "더 읽기" in the accent blue, and the
-// card title turns blue while the card is hovered.
-.home[data-home=posts] .summary {
-  .post-footer > a {
-    color: #2563eb;
-    font-weight: 600;
+// Keep the blue for hover only, so a card does not turn all blue: the author
+// name and "더 읽기" are neutral dark gray and take the accent blue on hover.
+.post-meta .post-author a,
+.home[data-home=posts] .summary .post-footer > a {
+  color: #4b5563;
 
-    [theme=dark] & {
+  &:hover {
+    color: #2563eb;
+  }
+
+  [theme=dark] & {
+    color: #c0c0c8;
+
+    &:hover {
       color: #60a5fa;
     }
   }
+}
 
-  &:hover .single-title a {
-    color: #2563eb;
-
-    [theme=dark] & {
-      color: #60a5fa;
-    }
-  }
+.home[data-home=posts] .summary .post-footer > a {
+  font-weight: 600;
 }
 
 // Category label as a colored chip, one color per kind of activity, so the
