@@ -87,6 +87,8 @@ hugo --gc --minify --config hugo.toml,pages.json --theme template --themesDir th
 | 새 글 추가 | `site/content/posts/`에 새 폴더를 만들고 `index.ko.md` 작성 |
 | 프로필 이미지 | `site/assets/images/avatar.jpg` |
 | 화면 템플릿 수정 | `site/layouts/` (테마 원본 `site/themes/template/`은 수정하지 않음) |
+| 색, 카드 모양 등 스타일 | `site/assets/css/_override.scss`(색 변수), `site/assets/css/_custom.scss`(추가 스타일) |
+| 테마 전환 버튼 동작 | `site/assets/js/theme.js` (테마 원본을 복사해 라이트/다크 전환 부분만 수정) |
 
 새 글의 앞부분(front matter)에는 `date`, `weight`(목록 순서, 작을수록 위), `categories`(Research, Studies, Projects, Experience 중 하나)를 넣습니다.
 
