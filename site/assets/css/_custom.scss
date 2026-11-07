@@ -159,3 +159,21 @@
     filter: brightness(0.95);
   }
 }
+
+// Dark mode: the theme draws post headings in the same gray as body text
+// (#a9a9b3), so sections such as "개요" do not stand out. Make headings a
+// near-white so they read as headings. The post title and card titles too.
+[theme=dark] {
+  .single .content {
+    h2,
+    h3,
+    h4 {
+      color: #ececf1;
+    }
+  }
+
+  .single .single-title,
+  .home[data-home=posts] .summary .single-title a {
+    color: #ececf1;
+  }
+}
