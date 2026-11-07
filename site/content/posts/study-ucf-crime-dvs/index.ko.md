@@ -2,6 +2,11 @@
 title: "UCF-Crime-DVS: 이벤트 카메라로 만든 이상 행동 탐지 데이터셋"
 date: 2026-11-06
 weight: 6
+resources:
+  - name: "featured-image"
+    src: "featured-image.png"
+  - name: "featured-image-preview"
+    src: "featured-image-preview.jpg"
 draft: false
 description: "제 연구의 출발점인 UCF-Crime-DVS 논문을 읽고 데이터셋 구성과 SNN 기반 모델 MSF를 정리한 공부 기록"
 tags: ["UCF-Crime-DVS", "Event Camera", "DVS", "SNN", "Video Anomaly Detection"]
@@ -20,6 +25,7 @@ toc:
 - 논문: Yuanbin Qian, Shuhan Ye et al., "UCF-Crime-DVS: A Novel Event-Based Dataset for Video Anomaly Detection with Spiking Neural Networks," AAAI 2025.
 - 논문 보기: [arXiv 페이지](https://arxiv.org/abs/2503.12905) · [PDF](https://arxiv.org/pdf/2503.12905)
 - 공식 데이터셋과 코드: [GitHub (YBQian-Roy/UCF-Crime-DVS)](https://github.com/YBQian-Roy/UCF-Crime-DVS)
+- 대표 이미지: 일반 카메라와 동적 비전 센서(DVS)의 출력 비교, 출처 [iniVation](https://inivation.com/) 동적 비전 센서 구동 원리 자료
 
 ## 왜 이벤트 카메라인가
 
